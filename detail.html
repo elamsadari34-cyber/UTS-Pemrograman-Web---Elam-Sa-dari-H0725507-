@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Detail Destinasi | Pesona Mamasa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-teal sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">⛰️ Pesona Mamasa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link active" href="destination.html">Destinasi</a></li>
+          <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5" id="detail">
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Beranda</a></li>
+        <li class="breadcrumb-item"><a href="destination.html">Destinasi</a></li>
+        <li class="breadcrumb-item active" id="namaCrumb">Detail</li>
+      </ol>
+    </nav>
+
+    <div id="tidakAda" class="alert alert-warning d-none">
+      Destinasi tidak ditemukan. <a href="destination.html" class="alert-link">Kembali ke daftar</a>
+    </div>
+
+    <section class="detail-item d-none" id="tondokbakaru">
+      <div class="row g-4">
+        <div class="col-lg-7">
+          <img src="tondokbakaru.jpg" class="img-fluid rounded shadow w-100 detail-img" alt="Desa Wisata Tondok Bakaru">
+        </div>
+        <div class="col-lg-5">
+          <span class="badge bg-hl mb-2">Desa Wisata</span>
+          <h1>Desa Wisata Tondok Bakaru</h1>
+          <p class="text-muted">📍 Kecamatan Mamasa<br>🕐 Cek informasi terbaru sebelum berkunjung</p>
+          <p>Desa wisata ini berada di kaki Gunung Mambulilling, salah satu gunung tertinggi di Sulawesi Barat dengan ketinggian sekitar 2.741 mdpl. Pemandangannya berupa hamparan sawah hijau dan udara yang sejuk. Pada 2019 desa ini ditetapkan sebagai Desa Anggrek, dan lokasinya hanya sekitar lima menit dari pusat kota Mamasa.</p>
+          <h5>Tips Berkunjung</h5>
+          <ul class="list-group mb-3">
+            <li class="list-group-item">Bawa jaket karena udara pegunungan sejuk.</li>
+            <li class="list-group-item">Kunjungi kebun anggrek dan area persawahan.</li>
+            <li class="list-group-item">Hormati warga dan jaga kebersihan desa.</li>
+          </ul>
+          <a href="destination.html" class="btn btn-outline-hl"> && larr; Kembali ke Daftar</a>
+          <a href="index.html" class="btn btn-hl">Beranda</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="detail-item d-none" id="tenun">
+      <div class="row g-4">
+        <div class="col-lg-7">
+          <img src="SarungTenun.jpg" class="img-fluid rounded shadow w-100 detail-img" alt="Tenun Sambu Mamasa">
+        </div>
+        <div class="col-lg-5">
+          <span class="badge bg-hl mb-2">Kerajinan</span>
+          <h1>Tenun Sambu Mamasa</h1>
+          <p class="text-muted">📍 Kabupaten Mamasa<br>🕐 Sesuai jadwal pengrajin</p>
+          <p>Sambu Mamasa adalah kain tenun tradisional. Dahulu kain ini hanya dipakai kalangan bangsawan, tetapi kini lebih luas digunakan, terutama dalam upacara adat. Pengerjaannya dilakukan secara tradisional dan memakan waktu sekitar dua hingga tiga minggu.</p>
+          <h5>Tips Berkunjung</h5>
+          <ul class="list-group mb-3">
+            <li class="list-group-item">Tanyakan makna motif kepada pengrajin.</li>
+            <li class="list-group-item">Beli langsung dari pengrajin untuk mendukung ekonomi lokal.</li>
+            <li class="list-group-item">Hargai proses pembuatan yang panjang.</li>
+          </ul>
+          <a href="destination.html" class="btn btn-outline-hl">&larr; Kembali ke Daftar</a>
+          <a href="index.html" class="btn btn-hl">Beranda</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-item d-none" id="kopi">
+      <div class="row g-4">
+        <div class="col-lg-7">
+          <img src="kopi.jpg" class="img-fluid rounded shadow w-100 detail-img" alt="Kopi Mamasa">
+        </div>
+        <div class="col-lg-5">
+          <span class="badge bg-hl mb-2">Agrowisata</span>
+          <h1>Kopi Mamasa</h1>
+          <p class="text-muted">📍 Kecamatan Sumarorong dan sekitarnya<br>🕐 Sesuai jadwal pengelola kebun</p>
+          <p>Kopi merupakan komoditas penting di dataran tinggi Mamasa. Di Kecamatan Sumarorong terdapat agrowisata kopi dan kakao yang tercatat dalam peraturan daerah sebagai daya tarik wisata.</p>
+          <h5>Tips Berkunjung</h5>
+          <ul class="list-group mb-3">
+            <li class="list-group-item">Tanyakan proses dari kebun hingga cangkir kepada petani.</li>
+            <li class="list-group-item">Bawa pulang biji kopi sebagai oleh-oleh.</li>
+            <li class="list-group-item">Gunakan alas kaki yang nyaman di kebun.</li>
+          </ul>
+          <a href="destination.html" class="btn btn-outline-hl">&larr; Kembali ke Daftar</a>
+          <a href="index.html" class="btn btn-hl">Beranda</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-item d-none" id="buntukepa">
+      <div class="row g-4">
+        <div class="col-lg-7">
+          <img src="buntukepa.jpeg" class="img-fluid rounded shadow w-100 detail-img" alt="Buntu Kepa">
+        </div>
+        <div class="col-lg-5">
+          <span class="badge bg-hl mb-2">Alam &amp; Budaya</span>
+          <h1>Buntu Kepa</h1>
+          <p class="text-muted">📍 Kecamatan Mamasa<br>🕐 Cek informasi terbaru sebelum berkunjung</p>
+          <p>Buntu Kepa’ merupakan destinasi wisata bak negeri diatas awan di Mamasa, menawarkan panorama alam yang memukau dengan hamparan awan yang membentang luas di bawah kaki.</p>
+          <h5>Tips Berkunjung</h5>
+          <ul class="list-group mb-3">
+            <li class="list-group-item">Datang saat cuaca cerah agar pemandangan lebih jelas.</li>
+            <li class="list-group-item">Gunakan alas kaki yang nyaman untuk berjalan di bukit.</li>
+            <li class="list-group-item">Bawa jaket karena udara cukup dingin.</li>
+          </ul>
+          <a href="destination.html" class="btn btn-outline-hl">&larr; Kembali ke Daftar</a>
+          <a href="index.html" class="btn btn-hl">Beranda</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-item d-none" id="balla">
+      <div class="row g-4">
+        <div class="col-lg-7">
+          <img src="PatungBukitZiarahPena.jpeg" class="img-fluid rounded shadow w-100 detail-img" alt="Bukit Ziarah Pena">
+        </div>
+        <div class="col-lg-5">
+          <span class="badge bg-hl mb-2">Wisata Rohani</span>
+          <h1>Bukit Ziarah Pena</h1>
+          <p class="text-muted">📍 Desa Balla, Kabupaten Mamasa<br>🕐 Cek informasi terbaru sebelum berkunjung</p>
+          <p>Patung setinggi 12 meter ini berdiri di atas bukit bernama Ziarah Pena. Pada 2022, Penjabat Gubernur Sulawesi Barat menyebutnya sebagai patung Bunda Maria tertua di Indonesia dan berpotensi menjadi wisata rohani unggulan.</p>
+          <h5>Tips Berkunjung</h5>
+          <ul class="list-group mb-3">
+            <li class="list-group-item">Jaga ketenangan karena ini tempat ziarah.</li>
+            <li class="list-group-item">Berpakaian sopan.</li>
+            <li class="list-group-item">Siapkan tenaga untuk naik ke area bukit.</li>
+          </ul>
+          <a href="destination.html" class="btn btn-outline-hl">&larr; Kembali ke Daftar</a>
+          <a href="index.html" class="btn btn-hl">Beranda</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="detail-item d-none" id="sambabo">
+      <div class="row g-4">
+        <div class="col-lg-7">
+          <img src="sambabo.jpeg" class="img-fluid rounded shadow w-100 detail-img" alt="Air Terjun Sambabo">
+        </div>
+        <div class="col-lg-5">
+          <span class="badge bg-hl mb-2">Alam</span>
+          <h1>Air Terjun Sambabo</h1>
+          <p class="text-muted">📍 Kecamatan Bambang, Kabupaten Mamasa<br>🕐 Pagi hingga siang hari, dengan memperhatikan cuaca.</p>
+          <p>Air Terjun Sambabo merupakan salah satu daya tarik alam Mamasa yang terkenal dengan aliran air yang tinggi dan lingkungan pegunungan yang masih hijau. Perjalanan menuju lokasi menjadi bagian dari pengalaman wisata alam.</p>
+          <h5>Tips Berkunjung</h5>
+          <ul class="list-group mb-3">
+            <li class="list-group-item">Gunakan alas kaki anti licin.</li>
+            <li class="list-group-item">Bawa kembali sampahmu.</li>
+            <li class="list-group-item">Cek kondisi cuaca dan akses jalan sebelum berangkat.</li>
+          </ul>
+          <a href="destination.html" class="btn btn-outline-hl">&larr; Kembali ke Daftar</a>
+          <a href="index.html" class="btn btn-hl">Beranda</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-item d-none" id="topao">
+      <div class="row g-4">
+        <div class="col-lg-7">
+          <img src="topao.jpeg" class="img-fluid rounded shadow w-100 detail-img" alt="Situs Sejarah To'pao">
+        </div>
+        <div class="col-lg-5">
+          <span class="badge bg-hl mb-2">Sejarah</span>
+          <h1>Situs Sejarah To'pao</h1>
+          <p class="text-muted">📍 Kecamatan Mamasa<br>🕐 Pagi hingga Sore</p>
+          <p>Situs To'pao merupakan salah satu tempat bersejarah yang berkaitan dengan identitas dan sejarah masyarakat Mamasa. Destinasi ini dapat menjadi pilihan bagi pengunjung yang ingin mengenal cerita masa lalu daerah tersebut.</p>
+          <h5>Tips Berkunjung</h5>
+          <ul class="list-group mb-3">
+            <li class="list-group-item">Cari informasi sejarah dari sumber lokal yang tepercaya.</li>
+            <li class="list-group-item">Jaga kebersihan dan kelestarian situs.</li>
+            <li class="list-group-item">Jangan merusak atau memindahkan benda yang memiliki nilai sejarah.</li>
+          </ul>
+          <a href="destination.html" class="btn btn-outline-hl">&larr; Kembali ke Daftar</a>
+          <a href="index.html" class="btn btn-hl">Beranda</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-item d-none" id="liawan">
+      <div class="row g-4">
+        <div class="col-lg-7">
+          <img src="Liawan.jpeg" class="img-fluid rounded shadow w-100 detail-img" alt="Air Terjun Liawan">
+        </div>
+        <div class="col-lg-5">
+          <span class="badge bg-hl mb-2">Alam</span>
+          <h1>Air Terjun Liawan</h1>
+          <p class="text-muted">📍 Desa Tadisi, Kecamatan Sumarorong<br>🕐 Pagi hari hingga sore</p>
+          <p>Air Terjun Sarambu Liawan menawarkan pemandangan air yang mengalir di tengah lingkungan hijau khas pegunungan Mamasa. Tempat ini cocok bagi pengunjung yang ingin menikmati suasana alam dan mendengarkan suara aliran air.</p>
+          <h5>Tips Berkunjung</h5>
+          <ul class="list-group mb-3">
+            <li class="list-group-item">Periksa kondisi akses menuju air terjun.</li>
+            <li class="list-group-item">Berhati-hati di sekitar batu yang licin.</li>
+            <li class="list-group-item">Jaga kebersihan lingkungan dan jangan meninggalkan sampah.</li>
+          </ul>
+          <a href="destination.html" class="btn btn-outline-hl">&larr; Kembali ke Daftar</a>
+          <a href="index.html" class="btn btn-hl">Beranda</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-item d-none" id="banualayuk">
+      <div class="row g-4">
+        <div class="col-lg-7">
+          <img src="BanuaLayuk.jpeg" class="img-fluid rounded shadow w-100 detail-img" alt="Banua Layuk Rambu Saratu">
+        </div>
+        <div class="col-lg-5">
+          <span class="badge bg-hl mb-2">Budaya</span>
+          <h1>Banua Layuk Rambu Saratu</h1>
+          <p class="text-muted">📍 Desa Rambusaratu, Kecamatan Mamasa<br>🕐 Pagi hingga sore hari, dengan menyesuaikan izin kunjungan.</p>
+          <p>Banua Layuk merupakan rumah adat tradisional Mamasa yang memiliki nilai sejarah dan budaya. Nama Banua Layuk secara umum dimaknai sebagai rumah tinggi. Rumah adat ini menjadi salah satu simbol identitas masyarakat Mamasa.</p>
+          <h5>Tips Berkunjung</h5>
+          <ul class="list-group mb-3">
+            <li class="list-group-item">Hormati aturan adat yang berlaku.</li>
+            <li class="list-group-item">Mintalah izin sebelum mengambil foto bagian dalam rumah.</li>
+            <li class="list-group-item">Jaga ketenangan selama berkunjung.</li>
+          </ul>
+          <a href="destination.html" class="btn btn-outline-hl">&larr; Kembali ke Daftar</a>
+          <a href="index.html" class="btn btn-hl">Beranda</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-item d-none" id="batukumila">
+      <div class="row g-4">
+        <div class="col-lg-7">
+          <img src="BatuKumila.jpg" class="img-fluid rounded shadow w-100 detail-img" alt="Wisata Batu Kumila">
+        </div>
+        <div class="col-lg-5">
+          <span class="badge bg-hl mb-2">Sejarah</span>
+          <h1>Wisata Batu Kumila</h1>
+          <p class="text-muted">📍 Kecamatan Mamasa<br>🕐 Pagi hingga Sore</p>
+          <p>Batu Kumila adalah objek wisata sejarah dan legenda di Kabupaten Mamasa, Sulawesi Barat, yang terletak di Desa Lambanan, Kecamatan Mamasa, sekitar 10 kilometer dari Kota Mamasa. Tempat ini terkenal karena wujud batu unik yang dipercaya warga setempat dapat bertumbuh dan menyimpan kisah kutukan.</p>
+          <h5>Tips Berkunjung</h5>
+          <ul class="list-group mb-3">
+            <li class="list-group-item">Cari informasi sejarah dari sumber lokal yang tepercaya.</li>
+            <li class="list-group-item">Jaga kebersihan dan kelestarian situs.</li>
+            <li class="list-group-item">Jangan merusak atau memindahkan benda yang memiliki nilai sejarah.</li>
+          </ul>
+          <a href="destination.html" class="btn btn-outline-hl">&larr; Kembali ke Daftar</a>
+          <a href="index.html" class="btn btn-hl">Beranda</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-item d-none" id="makuang">
+      <div class="row g-4">
+        <div class="col-lg-7">
+          <img src="RumahAdatMakuang.jpeg" class="img-fluid rounded shadow w-100 detail-img" alt="Rumah adat Makuang">
+        </div>
+        <div class="col-lg-5">
+          <span class="badge bg-hl mb-2">Budaya</span>
+          <h1>Rumah adat Makuang</h1>
+          <p class="text-muted">📍 Kecamatan Messawa<br>🕐 Pagi hari hingga Sore</p>
+          <p>Rumah Adat Makuang merupakan salah satu rumah adat tradisional Mamasa yang masih mempertahankan bentuk arsitektur khas daerah. Bangunan ini menjadi bagian dari warisan budaya yang mencerminkan kehidupan dan nilai-nilai masyarakat setempat.</p>
+          <h5>Tips Berkunjung</h5>
+          <ul class="list-group mb-3">
+            <li class="list-group-item">Mintalah izin kepada warga sebelum berkunjung.</li>
+            <li class="list-group-item">Hormati lingkungan sekitar rumah adat.</li>
+            <li class="list-group-item">Jangan merusak atau memindahkan benda yang memiliki nilai sejarah.</li>
+          </ul>
+          <a href="destination.html" class="btn btn-outline-hl">&larr; Kembali ke Daftar</a>
+          <a href="index.html" class="btn btn-hl">Beranda</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-item d-none" id="buntuliarra">
+      <div class="row g-4">
+        <div class="col-lg-7">
+          <img src="BuntuLiarra.webp" class="img-fluid rounded shadow w-100 detail-img" alt="Buntu Liarra">
+        </div>
+        <div class="col-lg-5">
+          <span class="badge bg-hl mb-2">Alam</span>
+          <h1>Buntu Liarra</h1>
+          <p class="text-muted">📍 Kecamatan Tanduk Kalua, Kabupaten Mamasa<br>🕐 Pagi hari, sekitar pukul 04.30–08.00 WITA untuk peluang melihat lautan awan.</p>
+          <p>Buntu Liarra dikenal sebagai Negeri di Atas Awan Mamasa. Dari kawasan perbukitan ini, pengunjung dapat menikmati panorama pegunungan dan hamparan awan yang menyelimuti lembah ketika kondisi cuaca mendukung.</p>
+          <h5>Tips Berkunjung</h5>
+          <ul class="list-group mb-3">
+            <li class="list-group-item">Berangkat lebih awal bersama pendamping yang mengenal jalur.</li>
+            <li class="list-group-item">Gunakan jaket dan alas kaki yang sesuai.</li>
+            <li class="list-group-item">Periksa cuaca dan kondisi jalan sebelum berangkat.</li>
+          </ul>
+          <a href="destination.html" class="btn btn-outline-hl">&larr; Kembali ke Daftar</a>
+          <a href="index.html" class="btn btn-hl">Beranda</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-dark text-white-50 text-center py-3 mt-5">
+    <small>&copy; 2026 Pesona Mamasa - Tugas UTS Pemrograman Web</small>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+  
+</body>
+</html>
